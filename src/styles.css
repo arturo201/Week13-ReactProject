@@ -1,0 +1,68 @@
+.login-form {
+    border: 1px solid black;
+    padding: 40px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.login-heading {
+    text-align: center;
+    margin: 15px 5px;
+}
+
+.form-group {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.navbar {
+    background-color: #f8f8f8;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+ul.nav-list {
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav.navbar ul li a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: #0087ca;
+}
+
+nav.navbar ul li a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transition: transform 0.25s ease-out;
+}
+
+nav.navbar ul li a:hover:after {
+    transform: scaleX(1);
+}
+
+.button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
